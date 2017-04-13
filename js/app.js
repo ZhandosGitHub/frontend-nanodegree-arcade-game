@@ -3,9 +3,9 @@ var Enemy = function() {
     // Variables applied to each of our instances
     // X and y enemies position and 'speed' is the
     // its speed measurement
-    this.x = -1
-    this.y = -1
-    this.speed = -1
+    this.x = -1;
+    this.y = -1;
+    this.speed = -1;
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
@@ -81,13 +81,13 @@ Player.prototype.checkCollisions = function() {
         
         // in case of collision, take away one life
         this.lives = this.lives - 1;
-        if(this.lives == 0){
+        if(this.lives === 0){
             this.gameStatus = 2;
         }
         // and reset Player's location
         this.reset();
-      };
-    };
+      }
+    }
 };
 
 // This method draws the Player Live and Score on the screen
@@ -105,7 +105,7 @@ Player.prototype.render = function() {
 };
 
 // This method moves the Player depending on Key Pressed
-Player.prototype.handleInput = function (pressedKey) {
+Player.prototype.handleInput = function(pressedKey) {
     switch (pressedKey) {
         case "left":
             if (this.x > 0) {
@@ -129,10 +129,10 @@ Player.prototype.handleInput = function (pressedKey) {
             break;
         case "down":
             if (this.y < 380) {
-                this.y = this.y + 80    
+                this.y = this.y + 80;    
             } 
             break;
-    };
+    }
 };
 
 // This method resets Player location 

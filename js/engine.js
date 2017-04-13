@@ -59,7 +59,7 @@ var Engine = (function(global) {
          * Update frames only if game is not over: meaning user has not lost all 
          * lives or won the game!
          */
-        if(player.gameStatus == 0){
+        if(player.gameStatus === 0){
             win.requestAnimationFrame(main);
         }
     }
