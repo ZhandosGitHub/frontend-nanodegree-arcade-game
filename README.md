@@ -5,7 +5,7 @@ This is "Arcade Game" Project, as part of Udacity's "Front End Developer Nanodeg
 # Running
 
 * To see online - see [demo version](https://zhandosgithub.github.io/Arcade%20Game/index.html) of "Arcade Game" project
-* To see locally - clone the [Arcade Game Project](https://github.com/ZhandosGitHub/frontend-nanodegree-arcade-game) from GitHub and run Index.html file
+* To see locally - clone the "Arcade Game" project [repository](https://github.com/ZhandosGitHub/frontend-nanodegree-arcade-game) from GitHub and run Index.html file
 
 # Rules
 
