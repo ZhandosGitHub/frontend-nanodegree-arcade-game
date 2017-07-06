@@ -4,13 +4,14 @@ This is "Arcade Game" Project, as part of Udacity's "Front End Developer Nanodeg
 
 # Running
 
+* To see online - see [demo version](https://zhandosgithub.github.io/Arcade%20Game/index.html) of "Arcade Game" project
 * To see locally - clone the [Arcade Game Project](https://github.com/ZhandosGitHub/frontend-nanodegree-arcade-game) from GitHub and run Index.html file
 
 # Rules
 
-* Player needs to reach the water. If he/she reaches, 1 point is added to the score, and player starts from initial location. Player wins if he/she gets 3 points. 
-* Player needs to avoid collisions with the bugs. If he/she collids with any bug, 1 live is lost. Player looses the game ("Game Over"), if he/she looses 3 lives. 
-* Game can be reset or started over, after winning/loosing previous game, by pressing the "New Game" button.   
+* Player needs to reach the water. If he/she reaches, 1 point is added to the score, and player starts from initial location. Player wins if he/she gets 3 points.
+* Player needs to avoid collisions with the bugs. If he/she collids with any bug, 1 live is lost. Player looses the game ("Game Over"), if he/she looses 3 lives.
+* Game can be reset or started over, after winning/loosing previous game, by pressing the "New Game" button.
 
 # Authors
 
